@@ -1,0 +1,148 @@
+*{
+   height: auto;
+   color: white;
+   margin: 0px;
+   padding: 0px;
+}
+
+body{
+   background-color: white;
+   font-family: Arial, Helvetica, sans-serif;   
+}
+
+header,footer {
+   background-color: green;
+   width: 100%;
+   height: 10%;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
+}
+
+section{
+   position: relative;
+   padding: 5% 5% 4% 5%;
+   white-space: normal;
+   line-height: 16px;
+   font-size: 16px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+   margin-top: 25px;
+}
+
+nav{
+   text-align: center;
+}
+
+a{
+   color: red;
+}
+
+.box{
+   float: left;
+   margin: 25px 20px 25px 0px;
+   width: 80px;
+   height: 80px;
+   border: 4px solid white;
+   border-top-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+
+.content{            
+   height: 100%;     
+   width: 30%;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: blue;
+}
+
+table{
+   margin-right: 20px;
+   min-width: 130px;
+   min-height: 100px;
+   border-color: darkgray;
+}
+
+td{
+   text-align: center;
+   vertical-align: bottom;
+   padding: 5px 5px 0px 5px;
+   height: 20px;
+   width: 20px;
+   border: 1px solid darkgray;
+   box-shadow: 0 0 2px white;
+}
+
+#td1{
+   background-color: green;
+   vertical-align: bottom;
+}
+
+#td7{
+   background-color: red;
+}
+
+h2{
+   line-height: 17px;
+   font-size: 17px;
+   font-family: Arial, Helvetica, sans-serif;
+   vertical-align: top;
+}
+
+h1{
+   word-spacing: 6px;
+   font-size: 26px;
+}
+
+#tabaside{
+   margin-left: 5%;
+   display:flex;
+   justify-content: space-between; 
+   align-items: center;
+}
+
+section>h1{
+   font-size: 30px;
+}
+
+img{
+   float: right;
+   margin-right: 20px;
+   margin-top: 10px;
+}
+
+#here{
+   color:red;
+}
+#list{
+   line-height: 18px;
+   margin-top: 15px;
+   margin-left: 5%;
+}
+#list>ul{
+   margin-top: 10px;
+   margin-left: 38px;
+}
+#list>ul>li{
+   padding-top: 4px;
+}
+
+#list>ul>li:nth-child(2){
+   letter-spacing: 4px;
+   color: aqua;
+}
+
+li{
+   margin-top: 5px;
+}
+
+#styles{
+   margin-top: 15px;
+}
+#styles>ul{
+   list-style-type: none;
+}
+#styles>ul>li:last-child{
+   margin-top: 40px;
+}
